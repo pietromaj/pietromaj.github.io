@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Container from '@mui/material/Container';
 import './App.css';
@@ -14,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="d-flex flex-column h-100 overflow-hidden">
-        <Navbar position="static" />
+        <Navbar />
         <div className="app-body">
           <Container maxWidth="xl">
             <Routes>

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <Container maxWidth="xl" className="d-flex justify-content-between align-items-center">
-        <div>Copyright © { (new Date()).getYear()  + 1900 }</div>
+        <div>Copyright © { (new Date()).getFullYear() }</div>
         <div>
           <YouTubeIcon fontSize="large" className="me-3" />
           <LinkedInIcon fontSize="large" />
