@@ -2,7 +2,7 @@
 
 html, body, #root {
   height: 100%;
-  background: #3c3c3c;
+  background: #171717;
   color: white;
 }
 
@@ -16,10 +16,40 @@ a {
   font-size: 32px;
 }
 
+.navbar {
+  background-color: black !important;
+  padding: 0;
+  border-bottom: 1px solid #575757;
+}
+
+.app-body {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.footer {
+  background-color: #171717 !important;
+  padding: 0;
+  border-top: 1px solid #575757;
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+
 .navbar-link {
   font-size: 20px;
   font-weight: 500;
+  height: 64px;
+  display: flex;
+  align-items: center;
 }
 
+
+.navbar-link.active {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #0ad1f9;
+}
 
 

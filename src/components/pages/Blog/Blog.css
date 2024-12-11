@@ -18,7 +18,7 @@
 .blog-header {
   position: relative;
   padding: 20px;
-  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  background: linear-gradient(45deg, #871a00, #4600b7);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
   color: white;

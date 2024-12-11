@@ -1,12 +1,13 @@
 import './BlogPost.css';
+import { Link } from 'react-router-dom';
 
 function BlogPost({ post }) {
   return (
-    <div className="blog-post mb-3 p-3">
+    <Link to={`/post/${post.id}`} className="blog-post mb-3 p-3">
       <h2>{post.title}</h2>
-      <p>{post.body}</p>
+      <p>{post.headline}</p>
       <small>{post.date}</small>
-    </div>
+    </Link>
   );
 }
 
