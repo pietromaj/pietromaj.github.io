@@ -78,3 +78,32 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+
+/* Ocultar em telas pequenas */
+@media (max-width: 767px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+  .about-header p {
+    font-size: 1rem;
+  }
+  .job h3 {
+    font-size: 1rem;
+  }
+  .job ul li {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+  .date-cell {
+    min-width: 60px;
+    font-size: 12px;
+  }
+  .pill {
+    padding: 3px 12px;
+    font-size: 0.7rem;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+}
+
+
