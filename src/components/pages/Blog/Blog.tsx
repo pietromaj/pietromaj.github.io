@@ -6,7 +6,7 @@ function Blog() {
   return (
     <div>
       <header className="blog-header my-3">
-        <h1>Blog</h1>
+        <h1 className="">Blog</h1>
         <p>Exploring ideas, tutorials, and more</p>
       </header>
       <div className="blog-grid">

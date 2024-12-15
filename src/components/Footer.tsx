@@ -8,8 +8,8 @@ function Footer() {
       <Container maxWidth="xl" className="d-flex justify-content-between align-items-center">
         <div>Copyright © { (new Date()).getFullYear() }</div>
         <div>
-          <YouTubeIcon fontSize="large" className="me-3" />
-          <LinkedInIcon fontSize="large" />
+          <a href="https://www.youtube.com/@tudoprogramado." target="_blank"><YouTubeIcon fontSize="large" className="me-3" /></a>
+          <a href="https://www.linkedin.com/in/pietro-majowka-440020a7/" target="_blank"><LinkedInIcon fontSize="large" /></a>
         </div>
       </Container>
     </div>

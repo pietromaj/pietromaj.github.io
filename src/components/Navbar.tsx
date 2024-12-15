@@ -13,17 +13,17 @@ function NavBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters className="d=flex justify-content-between w-100">
           <div className="d-flex align-items-center">
-            <NavLink to="/">
+            <NavLink to="/" className={({ isActive }) => isActive ? "active-name" : ""}>
               <div className="name me-5">{name}</div>
-            </NavLink>
-            <NavLink to="/projects" className={({ isActive }) => isActive ? "navbar-link me-4 active" : "navbar-link me-4"}>
-              <div>Projects</div>
             </NavLink>
             <NavLink to="/blog" className={({ isActive }) => isActive ? "navbar-link me-4 active" : "navbar-link me-4"}>
               <div>Blog</div>
             </NavLink>
+            <NavLink to="/projects" className={({ isActive }) => isActive ? "navbar-link me-4 active" : "navbar-link me-4"}>
+              <div>Projects</div>
+            </NavLink>
             <NavLink to="/about" className={({ isActive }) => isActive ? "navbar-link me-4 active" : "navbar-link me-4"}>
-              <div>about</div>
+              <div>About</div>
             </NavLink>
           </div>
           <Avatar alt="Remy Sharp" src={logoUrl} />

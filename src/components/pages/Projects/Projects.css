@@ -1,0 +1,30 @@
+.project-box {
+	background: #3c3c3c;
+	box-shadow: 0 1px 3px 0px #0c0c0c;
+}
+
+.project-title {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.project-text {
+	border-bottom: 2px solid #72fa93;
+	font-weight: 100;
+}
+
+.project-header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.project-header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
